@@ -9,4 +9,4 @@ EXPOSE 9090
 
 # Start Prometheus when the container is run
 # CMD ["prometheus", "--config.file=/etc/prometheus/prometheus.yml"]
-CMD ["prometheus"]
+CMD ["/bin/prometheus"]
